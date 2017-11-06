@@ -1,15 +1,39 @@
-var os = require("os");
 var greeting = require("./greeting");
-var User = require("./user.js");
 
-var eugene = new User("Eugene", 32);
-eugene.sayHi();
+global.name = "Eugene";
+
+global.console.log(date);
+console.log(greeting.getMessage());
+
+
+// var welcome = require("./welcome");
+//
+// welcome.getMorningMessage();
+// welcome.getEveningMessage();
+
+
+// var os = require("os");
+// var greeting1 = require("./greeting");
+// console.log(`Hello ${greeting1.name}`);
+//
+// var greeting2 = require("./greeting");
+// greeting2.name = "Bob";
+//
+// console.log(`Heelo ${greeting2.name}`);
+// console.log(`Heelo ${greeting1.name}`);
+
+
+//
+// var User = require("./user.js");
+//
+// var eugene = new User("Eugene", 32);
+// eugene.sayHi();
 
 // var userName = os.userInfo().username;
 //
 //
 // console.log(`Data of require: ${greeting.date}`);
-// console.log(greeting.getMessage(userName));
+ //console.log(greeting.getMessage("OLOLO"));
 
 // var http = require("http");
 // var os =require("os");
